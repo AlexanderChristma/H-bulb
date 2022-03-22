@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 30rem;
+            background-color: lightgray;
+            width: 20%;
+            margin: auto;
+        }
+        .messages{
+            height: 28.5rem;
+        }
+        .firstuser{
+            background: lightgreen;
+            opacity: 0.7;
+            color:white;
+            padding: 10%;
+            width: 50%;
+            border-radius: 5px;
+           position: relative;
+           float: right;
+           top:10%;
+        }
+       
+    </style>
+    <style>
+     #container{
+            height: 25rem;
+            width: 20%;
+            background-color: cornsilk;
+            margin: auto;
+            margin-top: 5px;
+        }
+        #form{
+         margin-top: 20px;
+        }
+        #view{
+            height: 22.3em;
+            background-color: cornsilk;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="messages" id="messages">
+          
+        </div>
+        <div class="input">
+            <form>
+                <input type="text" id="mainmsg">
+                <input type="submit" value="Send" id="send">
+            </form>
+        </div>
+    </div>
+
+      <div id="container">
+          <div id="view">
+
+          </div>
+          <div id="form">
+              <form action="">
+                    <input type="text" id="text" >
+                    <input type="submit" id="submit" value="submit">
+              </form>
+                
+          </div>
+        
+      </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

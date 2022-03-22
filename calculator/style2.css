@@ -1,0 +1,17 @@
+#box{
+    background-color:wheat;
+    width: 60%;
+    height: 450px;
+    margin: auto;
+    border: 1px solid wheat;
+}
+#image1{
+    width: 20%;
+    height: 200px;
+
+}
+/* #image2{
+    width: 20%;
+    height: 200px;
+    margin-left: 3px;
+} */

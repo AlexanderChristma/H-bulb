@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 25px;
+            background-color: #ccc;
+            position: relative;
+            border-radius: 7px;
+        }
+        .box .progress-bar{
+            position: absolute;
+            border-radius: 7px;
+            height: 100%;
+            background-color:rgb(125, 44, 255);
+           
+        }
+
+        #play-animation {
+            animation:progress-animation 5s forwards;
+        }
+        @keyframes progress-animation{
+            0% {width: 0%; }
+            100% {width: 100%;}
+        }
+
+
+    
+    </style>
+</head>
+
+<body>
+    <div class="box">
+<div class="progress-bar">
+
+</div>
+    </div>
+    <button  onclick="jhn()">up load</button>
+    <script src="../nnn.js"></script>
+</body>
+</html>
